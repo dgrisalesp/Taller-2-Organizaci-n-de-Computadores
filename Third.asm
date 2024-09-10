@@ -1,0 +1,35 @@
+@R3
+D=M
+@R5
+M=D
+@R6
+M=0
+@0 //@i
+M=1
+@0 //Loop1 begins 
+D=M
+@R5
+D=M-D
+D=D-1
+@25
+D;JLT
+@0
+D=M
+M=M+1
+@R3
+A=D+M
+D=M
+@R6
+M=D+M
+@8
+0;JMP
+@R5
+D=M
+@R6
+D=M-D
+@35
+D;JLE
+@R6
+M=D
+@25
+0;JMP
