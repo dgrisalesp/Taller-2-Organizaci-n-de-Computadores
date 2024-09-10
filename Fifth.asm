@@ -74,7 +74,7 @@ M=D+M
 M=M-1
 @52
 0;JMP
-@19970 //Begginning of End of D
+@19970 
 D=A
 @0
 M=D
